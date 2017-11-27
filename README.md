@@ -8,8 +8,12 @@ check if the process is alive and notify with mail
 ```
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
-user_account = '' # qq 账号
-stmp_code='' # qq 的 stmp code
+
+# qq 账号
+user_account = ''
+
+# qq 的 stmp code
+stmp_code = ''
 
 # 要检查的 process 的名字, 如：
 process_name = "getReview.py"
