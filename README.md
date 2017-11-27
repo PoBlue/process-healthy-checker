@@ -23,3 +23,8 @@ content = "process {name} is dead, fix it right now".format(name=process_name)
 subject = "Process Healthy Checker"
 to_mail = 'xxxx@qq.com'
 ```
+
+
+## 如何设置 QQ 邮箱支持发邮件📧
+
+参考这里：https://disease.novogene.org/topic/62/python使用qq邮箱发送邮件
