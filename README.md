@@ -8,14 +8,23 @@ check if the process is alive and notify with mail
 ```
 #!/usr/bin/env python
 #-*- coding: utf-8 -*-
-user_account = '' # qq 账号
-stmp_code='' # qq 的 stmp code
 
-# 要检查的 process 的名字, 如：
-process_name = "getReview.py"
+# qq 账号
+user_account = ''
+
+# qq 的 stmp code
+stmp_code = ''
+
+# 要检查的 process 的名字
+process_names = ["getReview.py", "test"]
 
 # email 的内容，content 为内容，subject 为主题, to_mail 为收件的邮箱地址
-content = "process {name} is dead, fix it right now".format(name=process_name)
+content = "process {name} is dead, fix it right now"
 subject = "Process Healthy Checker"
 to_mail = 'xxxx@qq.com'
 ```
+
+
+## 如何设置 QQ 邮箱支持发邮件📧
+
+参考这里：https://disease.novogene.org/topic/62/python使用qq邮箱发送邮件
